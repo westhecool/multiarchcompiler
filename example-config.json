@@ -1,0 +1,6 @@
+{
+    "volumes": ["/home:/home"],
+    "arches": ["amd64", "arm32v7", "arm64v8", "i386", "ppc64le", "riscv64", "s390x"],
+    "image": "{arch}/ubuntu",
+    "build": "./example-build-script.sh"
+}
